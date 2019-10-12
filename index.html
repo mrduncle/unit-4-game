@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Crystal Collectors</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	</head>
+	<body>
+		<div class="body-cont">
+		  
+			
+            <header>
+				<h1>CrystalsCollector!</h1>
+			</header>
+			<div class="Instructions">
+				<p>You will be given a random number at the start of the game.</p>
+				<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points
+				to your total score.</p>
+				<p>You win the game by matching your total score to the random number, you lose the game if your 
+				total score goes above the random number.</p>
+				<p>The value of each crystal is hidden from you until you click on it.</p>
+				<p>Each time when the game starts, the game will change the values of each crystal.</p>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<!--Random number-->
+					</div>
+					<div class="col-md-2">
+						<!--wins/losses-->
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4" id="amber">
+						
+					</div>
+					<div class="col-md-4" id="emerald">
+						
+					</div>
+					<div class="col-md-4" id="ruby">
+						
+					</div>
+					<div class="col-md-4" id="sapphire">
+						
+					</div>
+				</div>
+				<div class="row score-stuff"> <!--change this to an id later but first check that the class reference can work-->
+					<div class="col-md-4">
+						<p>Your total score is:</p>>
+					</div>
+					<div class="col-md-4">
+						<!--Score addition-->
+					</div>
+				</div>
+			</div>
+			
+            <footer></footer>
+		</div>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
+	</body>
+</html>
