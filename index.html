@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8"/>
 		<title>Crystal Collectors</title>
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	</head>
 	<body>
@@ -13,7 +13,7 @@
             <header>
 				<h1>CrystalsCollector!</h1>
 			</header>
-			<div class="Instructions">
+			<div class="instructions text-success">
 				<p>You will be given a random number at the start of the game.</p>
 				<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points
 				to your total score.</p>
@@ -22,32 +22,35 @@
 				<p>The value of each crystal is hidden from you until you click on it.</p>
 				<p>Each time when the game starts, the game will change the values of each crystal.</p>
 			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-4">
-						<!--Random number-->
-					</div>
-					<div class="col-md-2">
-						<!--wins/losses-->
-					</div>
+			<div class="flex-container1" id="rand-num">
+				<div class="rando">
+					<!--Random number-->
 				</div>
-				<div class="row">
-					<div class="col-md-4" id="amber">
-						
-					</div>
-					<div class="col-md-4" id="emerald">
-						
-					</div>
-					<div class="col-md-4" id="ruby">
-						
-					</div>
-					<div class="col-md-4" id="sapphire">
-						
-					</div>
+				<div class="win-loss">
+					<!--wins/losses-->
 				</div>
+			</div>
+			<div class="flex-container2 remove-left" id="gems">
+				<!-- <div class="row"> -->
+					<!-- <div class="col-md-2"> -->
+						<img class="gem-button" id="amber" src="assets/images/amber.jpg">
+					<!-- </div>
+					<div class="col-md-2"> -->
+						<img class="gem-button" id="emerald" src="assets/images/emerald.jpg">
+					<!-- </div>
+					<div class="col-md-2"> -->
+						<img class="gem-button" id="ruby" src="assets/images/ruby.jpg">
+					<!-- </div>
+					<div class="col-md-2 bg-light px-0 ml-3" id="sapphire-col">
+					<div class="col-md-2 justfy-content-center"> -->
+						<img class="gem-button" id="sapphire" src="assets/images/sapphire.jpg">
+					<!-- </div> -->
+				<!-- </div> -->
+			</div>
+			<div class="container remove-left">
 				<div class="row score-stuff"> <!--change this to an id later but first check that the class reference can work-->
-					<div class="col-md-4">
-						<p>Your total score is:</p>>
+					<div class="col-md-4 justify-content-start">
+						<p>Your total score is:</p>
 					</div>
 					<div class="col-md-4">
 						<!--Score addition-->
