@@ -15,27 +15,41 @@ h1 {
 .instructions {
     /* display: inline-block; */
     /* width: 70%; */
-    width: 400px;
+    width: 500px;
     background-color: #ffe6cc;
     word-spacing: 0.25em;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
     font-size: 14pt;
     color: #009900;
-}
-
-.remove-left {
-    margin-left: 0px;
-
+    padding-bottom: 150px;
 }
 
 .instructions {
     margin-left: 15px;
 }
 
-#rand-num {
-    height:150px;
+.flex-container1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 15px 0px 0px 15px;
+}
 
+.rando {
+    height: 150px;
+    width: 250px;
+    color: #000000;
+    background-color: #009933;
+
+}
+
+.win-loss {
+    height: 150px;
+    width: 100px;
+    color: #000000;
+    background-color: #00ffff;
+    margin-left: 15px;
 }
 
 .flex-container2 {
@@ -43,12 +57,27 @@ h1 {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
+    margin-left: 15px 0px 0px 15px;
 }
 
 .gem-button {
-    width: 150px;
-    margin: 10px 15px;
+    width: 100px;
+    margin: 15px 0px 0px 15px;
 }
+
+
+#score-header {
+    color: #ffffff;
+    background-color: #39ac73;
+    width:250px;
+    margin-left: 15px;
+    padding: 5px 0px 5px 0px;
+}
+
+.score {
+    
+}
+
 /* #amber {
     height: 150px;
     
