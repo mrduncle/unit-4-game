@@ -24,9 +24,7 @@ h1 {
     font-size: 14pt;
     color: #009900;
     padding-bottom: 150px;
-}
-
-.instructions {
+    padding-left: 15px;
     margin-left: 15px;
 }
 
@@ -44,6 +42,8 @@ h1 {
     font-weight: bolder;
     font-size: 25pt;
     background-color: #009933;
+    padding-left: 15px;
+    padding-top: 15px;
 
 }
 
@@ -53,6 +53,18 @@ h1 {
     color: #000000;
     background-color: #00ffff;
     margin-left: 15px;
+    padding-left: 15px;
+}
+
+#result {
+    position: absolute;
+    display: block;
+    letter-spacing: 5px;
+    text-align: center;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60pt;
+    -webkit-transform: rotate(-45deg);
 }
 
 .flex-container2 {
@@ -82,7 +94,7 @@ h1 {
     color: #ffffff;
     background-color: #39ac73;
     margin-left: 15px;
-    padding: 5px 0px 5px 0px;
+    padding: 5px 0px 5px 15px;
 }
 
 .score {
@@ -92,6 +104,8 @@ h1 {
     font-size: 25pt;
     background-color: #39ac73;
     margin-left: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
 }
 
 .gems {
