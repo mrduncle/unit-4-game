@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="UTF-8"/>
 		<title>Crystal Collectors</title>
-		<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	</head>
 	<body>
 		<div class="body-cont">
@@ -27,33 +27,32 @@
 					<!--Random number-->
 				</div>
 				<div class="win-loss">
-					<p>Wins: </p>
-					<p>Losses: </p>
+					<p id="winner">Wins: </p>
+					<p id="loser">Losses: </p>
 				</div>
 			</div>
 			<div class="flex-container2" id="gems">
-				<!-- <div class="row"> -->
-					<!-- <div class="col-md-2"> -->
-						<img class="gem-button" id="amber" src="assets/images/amber.jpg">
-					<!-- </div>
-					<div class="col-md-2"> -->
-						<img class="gem-button" id="emerald" src="assets/images/emerald.jpg">
-					<!-- </div>
-					<div class="col-md-2"> -->
-						<img class="gem-button" id="ruby" src="assets/images/ruby.jpg">
-					<!-- </div>
-					<div class="col-md-2 bg-light px-0 ml-3" id="sapphire-col">
-					<div class="col-md-2 justfy-content-center"> -->
-						<img class="gem-button" id="sapphire" src="assets/images/sapphire.jpg">
-					<!-- </div> -->
-				<!-- </div> -->
+				<!-- <div class="button-cont"> -->
+				<button class="gem-button" id="amber" onclick="addClicks(this.id)">
+					<img class="gems" src="assets/images/amber.jpg">
+				</button>
+				<button class="gem-button" id="emerald" onclick="addClicks(this.id)">
+					<img class="gems" src="assets/images/emerald.jpg">
+				</button>
+				<button class="gem-button" id="ruby" onclick="addClicks(this.id)">
+					<img class="gems" src="assets/images/ruby.jpg">
+				</button>
+				<button class="gem-button" id="sapphire" onclick="addClicks(this.id)">
+					<img class="gems" src="assets/images/sapphire.jpg">
+				</button>
+			
 			</div>
 			<p id="score-header">Your total score is:</p>
 			<div class="score"></div>
 			
             <footer></footer>
 		</div>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
         <script type="text/javascript" src="assets/javascript/game.js"></script>
 	</body>
 </html>

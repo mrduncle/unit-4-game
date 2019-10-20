@@ -1,6 +1,7 @@
 .body-cont {
     background-image: url("../images/just-waves.png");
     width: 100vw;
+    z-index: 0;
 
 }
 
@@ -39,7 +40,9 @@ h1 {
 .rando {
     height: 150px;
     width: 250px;
-    color: #000000;
+    color: #660000;
+    font-weight: bolder;
+    font-size: 25pt;
     background-color: #009933;
 
 }
@@ -62,46 +65,60 @@ h1 {
 
 .gem-button {
     width: 100px;
+    height: 100px;
     margin: 15px 0px 0px 15px;
+    border: 1px solid black;
+    padding: 0px;
 }
 
+.button-cont {
+    position: relative;
+}
 
 #score-header {
+    width:250px;
+    display: block;
+    /* position: relative; */
     color: #ffffff;
     background-color: #39ac73;
-    width:250px;
     margin-left: 15px;
     padding: 5px 0px 5px 0px;
 }
 
 .score {
-    
+    height: 150px;
+    width: 250px;
+    color: #ffffff;
+    font-size: 25pt;
+    background-color: #39ac73;
+    margin-left: 15px;
+}
+
+.gems {
+    width: 100px;
 }
 
 /* #amber {
-    height: 150px;
-    
+    background-image: url("../images/emerald.jpg");
+    width: 100px
 }
 
 #emerald {
-    height: 150px;
-
+    background-image: url("../images/emerald.jpg");
+    width: 100px
 }
 
 #ruby {
-    height: 150px;
-
-}*/
-
-/* #sapphire-col {
-    width: 150px!important;
+    display: block;
+    background-image: url("../images/ruby.jpg");
+    width: 100px;
+    top 0px;
 }
 
 #sapphire {
-    height: 150px;
-    width: 150px;
-    display: block;
-    margin: 0px 28px;
+    background-image: url("../images/sapphire.jpg");
+    width: 100px;
+    
 
 }  */
 
